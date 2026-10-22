@@ -1,0 +1,72 @@
+header {
+    background: #1C1C1C;
+    height: 4rem;
+    width: 55%;
+    margin: 1.3em auto 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+    border-radius: 5px;
+
+    box-shadow: 1px 29px 64px -3px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 1px 29px 64px -3px rgba(0,0,0,0.73);
+    -moz-box-shadow: 1px 29px 64px -3px rgba(0,0,0,0.73);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    height: 3.5em;
+}
+
+.web-title {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.web-title p a {
+    font-family: Manrope;
+    font-size: 1.5rem;
+    color: white;
+
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul {
+    list-style-type: none;
+}
+
+.nav-links ul li {
+    display: inline;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+
+    font-family: Manrope;
+}
+
+.nav-links ul li:nth-child(n+2) {
+    margin-left: 5px;
+}

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/font/Inter_18pt-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('/assets/font/Manrope-Regular.ttf');
+}
+
+body {
+    background: #EEF0F2;
+}
