@@ -1,3 +1,7 @@
+body {
+    background: #D8D4D5;
+}
+
 header {
     background: #1C1C1C;
     height: 4rem;
@@ -30,7 +34,7 @@ header {
 .web-title {
     display: flex;
     flex-direction: row;
-
+    margin-left: 0.5rem;
     justify-content: space-between;
     align-items: center;
 
@@ -50,6 +54,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    margin-right: 1rem;
 }
 
 .nav-links ul {
@@ -63,10 +69,25 @@ header {
 .nav-links ul li a {
     text-decoration: none;
     color: white;
-
+    font-size: 1.2em;
     font-family: Manrope;
 }
 
 .nav-links ul li:nth-child(n+2) {
-    margin-left: 5px;
+    margin-left: 1rem;
+}
+
+footer {
+    background: #1C1C1C;
+    margin: auto;
+    border-radius: 5px;
+    height: 4rem;
+    width: 55%;
+}
+
+.main-content-wrapper {
+    height: 81vh;
+    border: 2px solid red;
+    margin: auto;
+    width: 55%;
 }
