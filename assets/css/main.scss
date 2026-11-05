@@ -1,0 +1,40 @@
+.main-title {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+        font-family: Manrope;
+        font-size: 3.5em;
+        font-weight: 600;
+        text-align: center;
+        
+        line-height: 1em;
+    }
+
+    button {
+        border: none;
+        width: 50%;
+        height: 12dvh;
+        margin: 4em auto auto auto;
+        background: #1C1C1C;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+        
+        a {
+            text-align: center;
+            color: white;
+            font-family: Manrope;
+            font-weight: 600;
+            font-size: 3em;
+            text-decoration: none;
+        }
+    }
+
+    button:hover {
+        background: #2A1E5C;
+    }
+}

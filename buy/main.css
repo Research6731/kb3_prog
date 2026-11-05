@@ -1,0 +1,51 @@
+.order-form {
+  background: #1C1C1C;
+  border-radius: 5px;
+  padding: 1.5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+.order-form h1 {
+  font-family: Manrope;
+  font-size: 1.5rem;
+  color: white;
+  margin: 0 0 1rem 0;
+}
+.order-form label {
+  display: block;
+  font-family: Inter;
+  font-size: 0.95rem;
+  color: white;
+  margin-bottom: 0.3rem;
+}
+.order-form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #C4CBCA;
+  border-radius: 5px;
+  background: #2A2A2A;
+  color: white;
+  font-family: Inter;
+  font-size: 1rem;
+}
+.order-form button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  background: #EE4266;
+  color: white;
+  font-family: Manrope;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.order-form button:hover {
+  background: #c93553;
+}
+
+/*# sourceMappingURL=main.css.map */
